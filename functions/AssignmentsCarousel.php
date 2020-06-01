@@ -24,18 +24,19 @@
   				$user = json_decode($userJson, true);
   				$numberOfUsers = count($user["result"]);
 
-  				// GUARDAMOS EN EL ARREGLO LOS DATOS IMPORTANTES
-  				for ($i = 0; $i < $numberOfUsers; $i++) {
-
-  					responsableToLead($user["result"][$i]["ID"], $leadId);
-  					changePersonalState($user["result"][$i]["ID"]);
-				    break;
-  				}
-
   				// SI LA CONDICION SE CUMPLE SE REINICIA EL CARRUSEL DE ASIGNACIONES
   				if ($numberOfUsers < 1) {
 
   					resetCarousel($user["result"]);
+  				} else {
+
+					// GUARDAMOS EN EL ARREGLO LOS DATOS IMPORTANTES
+	  				for ($i = 0; $i < $numberOfUsers; $i++) {
+
+	  					responsableToLead($user["result"][$i]["ID"], $leadId);
+	  					changePersonalState($user["result"][$i]["ID"]);
+					    break;
+	  				}
   				}
 
 				break;
