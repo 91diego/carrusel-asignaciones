@@ -25,12 +25,20 @@
   				$numberOfUsers = count($user["result"]);
 
   				// SI LA CONDICION SE CUMPLE SE REINICIA EL CARRUSEL DE ASIGNACIONES
+  				// DE LO CONTRARIO SE REALIZA LA ASIGNACION AL SIGUIENTE USUARIO
   				if ($numberOfUsers < 1) {
 
-  					resetCarousel($user["result"]);
+  					$userData = resetCarousel($user["result"]);
+  					// print_r($userData); exit;
+  					$number = count($userData);
+		  			for ($i = 0; $i < $number; $i++) {
+
+	  					responsableToLead($userData[$i]["ID"], $leadId);
+	  					changePersonalState($userData[$i]["ID"]);
+					    break;
+	  				}
   				} else {
 
-					// GUARDAMOS EN EL ARREGLO LOS DATOS IMPORTANTES
 	  				for ($i = 0; $i < $numberOfUsers; $i++) {
 
 	  					responsableToLead($user["result"][$i]["ID"], $leadId);
@@ -68,7 +76,7 @@
 	*
 	* @return bool
 	*/
-	function changePersonalState($userId) {
+	function changePersonalState($userId/*, $numberUsers, $data*/) {
 
 		$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.update.json?ID=".$userId."&PERSONAL_STATE=1";
 	    $curl = curl_init($updatePersonalState);
@@ -86,6 +94,7 @@
 	    // Cerrar el recurso cURL y liberar recursos del sistema
 	    curl_close($curl);
 	    $data = json_decode($response, true);
+
 	}
 
 	/**
@@ -157,7 +166,12 @@
 		    $data = json_decode($response, true);
 		}
 
+		$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
+		$userUpdate = file_get_contents($updatePersonalState);
+		$user = json_decode($userUpdate, true);
+		$userData = $user["result"];
 		echo "<p>El carrusel de asignaciones ha sido reiniciado</p>";
+		return $userData;
 	}
 
 ?>
