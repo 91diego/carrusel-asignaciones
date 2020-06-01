@@ -41,9 +41,19 @@
 
 				break;
 
-			case 'sales-advisor':
+			case 'sales-advisor-general':
 				echo "Asignacion de leads a los asesores";
-				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas";
+				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SON GENERALES SIN IMPORTAR EL DESARROLLO";
+				break;
+
+			case 'sales-advisor-project':
+				echo "Asignacion de leads a los asesores";
+				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SON POR DESARROLLO";
+				break;
+
+			case 'top-sales-advisor':
+				echo "Asignacion de leads a los asesores";
+				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SE REALIZAN MEDIANTE UNA CLASIFICACION";
 				break;
 			
 			default:
