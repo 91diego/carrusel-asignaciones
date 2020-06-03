@@ -22,9 +22,8 @@
 
 				// IF THE LEAD EXIST, WE ASSIGN THE RECORD TO LE LAST RESPONSABLE
 				// AND THE PROCESS END
-				if ($data["ASSIGNED_BY_ID"] == 0) {
+				if ($data == 0) {
 
-					print_r("expression"); exit;
 					$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
 					$userJson = file_get_contents($userUrl);
 	  				$user = json_decode($userJson, true);
@@ -52,10 +51,9 @@
 		  				}
 	  				}
 
-				} else {
+				} elseif ($data["ASSIGNED_BY_ID"] > 0) {
 
 					$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"];
-					echo $comments;
 					responsableToLead($data["ASSIGNED_BY_ID"], $leadId, $comments);
 				}
 				break;

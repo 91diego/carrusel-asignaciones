@@ -16,7 +16,7 @@
 		assignments($leadId, $projectName, $type, $data);
 	} else {
 		$data = 0;
-		// assignments($leadId, $projectName, $type, 0);
+		assignments($leadId, $projectName, $type, 0);
 	}
 
 ?>
