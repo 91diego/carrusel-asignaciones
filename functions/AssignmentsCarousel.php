@@ -29,7 +29,6 @@
   				if ($numberOfUsers < 1) {
 
   					$userData = resetCarousel($user["result"]);
-  					// print_r($userData); exit;
   					$number = count($userData);
 		  			for ($i = 0; $i < $number; $i++) {
 
@@ -68,6 +67,55 @@
 				// code...
 				break;
 		}
+	}
+
+
+	/**
+	* Prevents duplicate records
+	* @param int $leadId
+	*
+	* @return bool
+	*/
+	function searchDuplicateRecord($leadId) {
+
+		// SAVE THE SPECIFIC DATA OF THE LEAD
+		$leadData = [];
+		// OBTAIN DATA OF THE LEAD
+		$leadUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/crm.lead.get?ID=".$leadId;
+		$leadJson = file_get_contents($leadUrl);
+  		$leadResponse = json_decode($leadJson, true);
+  		array_push($leadData, [
+  			"name" => $leadResponse["result"]["NAME"],
+  			"last_name"=> $leadResponse["result"]["LAST_NAME"],
+  			"phone"=> $leadResponse["result"]["PHONE"][0]["VALUE"],
+  			"email"=> $leadResponse["result"]["EMAIL"][0]["VALUE"],
+  		]);
+
+  		$name = $leadData[0]["name"];
+  		$lastName = $leadData[0]["last_name"];
+  		$phone = $leadData[0]["phone"];
+  		$email = $leadData[0]["email"];
+
+
+		$myURL = 'https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/crm.lead.list?FILTER[NAME]=$name&FILTER[LAST_NAME]=$lastName&FILTER[PHONE]=$phone&FILTER[EMAIL]=$email';   
+        $options = array("sensor"=>"false");
+    	$myURL .= http_build_query($options,'','&');
+
+    	$myData = file_get_contents($myURL) or die(print_r(error_get_last()));
+  		// SEARCH DUPLICATE IN CRM
+/*  		$findDuplicatesUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/crm.lead.list?FILTER[NAME]=$name&FILTER[LAST_NAME]=$lastName&FILTER[PHONE]=$phone&FILTER[EMAIL]=$email";
+  		$duplicatesJson = file_get_contents($findDuplicatesUrl);*/
+  		//print_r($myData); exit;
+  		$duplicatesResponse = json_decode($myData, true);
+  		print_r($duplicatesResponse); exit;
+
+  		if (!empty($duplicatesResponse)) {
+  			
+  			return $duplicatesResponse["result"];
+  		} else {
+
+  			return "No existe el lead";
+  		}
 	}
 
 	/**

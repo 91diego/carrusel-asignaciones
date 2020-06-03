@@ -1,6 +1,35 @@
 
 ------------------------
-2020.06.01 11:49:13
+2020.06.01 12:23:53
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31359
+                )
+
+        )
+
+    [ts] => 1591032229
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:24:35
  INCOMING DATA 
 Array
 (
@@ -12,7 +41,2098 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:05:55
+2020.06.01 12:24:40
+ INCOMING DATA 
+Array
+(
+    [id] => 31358
+    [desarrollo] => general
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:24:48
+ INCOMING DATA 
+Array
+(
+    [id] => 31358
+    [desarrollo] => general
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:24:53
+ INCOMING DATA 
+Array
+(
+    [id] => 31358
+    [desarrollo] => general
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:25:17
+ INCOMING DATA 
+Array
+(
+    [id] => 31358
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:25:23
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31360
+                )
+
+        )
+
+    [ts] => 1591032320
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:25:43
+ INCOMING DATA 
+Array
+(
+    [id] => 31358
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:33:13
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31361
+                )
+
+        )
+
+    [ts] => 1591032790
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:33:14
+ INCOMING DATA 
+Array
+(
+    [id] => 31361
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:35:35
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31362
+                )
+
+        )
+
+    [ts] => 1591032931
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:35:35
+ INCOMING DATA 
+Array
+(
+    [id] => 31362
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:42:34
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31363
+                )
+
+        )
+
+    [ts] => 1591033351
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:43:34
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31364
+                )
+
+        )
+
+    [ts] => 1591033411
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:44:12
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31365
+                )
+
+        )
+
+    [ts] => 1591033449
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:46:15
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31366
+                )
+
+        )
+
+    [ts] => 1591033572
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:49:21
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31367
+                )
+
+        )
+
+    [ts] => 1591033757
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:49:21
+ INCOMING DATA 
+Array
+(
+    [id] => 31367
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:50:50
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31368
+                )
+
+        )
+
+    [ts] => 1591033847
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:50:52
+ INCOMING DATA 
+Array
+(
+    [id] => 31368
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:51:49
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31369
+                )
+
+        )
+
+    [ts] => 1591033906
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:51:51
+ INCOMING DATA 
+Array
+(
+    [id] => 31369
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:52:29
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31370
+                )
+
+        )
+
+    [ts] => 1591033946
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:52:30
+ INCOMING DATA 
+Array
+(
+    [id] => 31370
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:53:04
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31371
+                )
+
+        )
+
+    [ts] => 1591033981
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:53:05
+ INCOMING DATA 
+Array
+(
+    [id] => 31371
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:55:51
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31372
+                )
+
+        )
+
+    [ts] => 1591034148
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:56:17
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31373
+                )
+
+        )
+
+    [ts] => 1591034174
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:56:18
+ INCOMING DATA 
+Array
+(
+    [id] => 31373
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:56:56
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31374
+                )
+
+        )
+
+    [ts] => 1591034212
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:56:57
+ INCOMING DATA 
+Array
+(
+    [id] => 31374
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:57:34
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31375
+                )
+
+        )
+
+    [ts] => 1591034251
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:57:35
+ INCOMING DATA 
+Array
+(
+    [id] => 31375
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:58:52
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31376
+                )
+
+        )
+
+    [ts] => 1591034329
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 12:58:53
+ INCOMING DATA 
+Array
+(
+    [id] => 31376
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:00:28
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31377
+                )
+
+        )
+
+    [ts] => 1591034425
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:00:29
+ INCOMING DATA 
+Array
+(
+    [id] => 31377
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:01:08
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31378
+                )
+
+        )
+
+    [ts] => 1591034465
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:01:10
+ INCOMING DATA 
+Array
+(
+    [id] => 31378
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:09:21
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31379
+                )
+
+        )
+
+    [ts] => 1591034958
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:28:23
+ INCOMING DATA 
+Array
+(
+    [id] => 31373
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:29:26
+ INCOMING DATA 
+Array
+(
+    [id] => 31377
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:30:41
+ INCOMING DATA 
+Array
+(
+    [id] => 31373
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 13:31:25
+ INCOMING DATA 
+Array
+(
+    [id] => 31373
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:05:21
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31380
+                )
+
+        )
+
+    [ts] => 1591038317
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:05:22
+ INCOMING DATA 
+Array
+(
+    [id] => 31380
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:06:03
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31381
+                )
+
+        )
+
+    [ts] => 1591038359
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:06:04
+ INCOMING DATA 
+Array
+(
+    [id] => 31381
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:07:34
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31382
+                )
+
+        )
+
+    [ts] => 1591038451
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:07:35
+ INCOMING DATA 
+Array
+(
+    [id] => 31382
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:09:51
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31383
+                )
+
+        )
+
+    [ts] => 1591038587
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:09:52
+ INCOMING DATA 
+Array
+(
+    [id] => 31383
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:10:37
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31384
+                )
+
+        )
+
+    [ts] => 1591038634
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:10:38
+ INCOMING DATA 
+Array
+(
+    [id] => 31384
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:11:27
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31385
+                )
+
+        )
+
+    [ts] => 1591038684
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:11:28
+ INCOMING DATA 
+Array
+(
+    [id] => 31385
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:12:47
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31386
+                )
+
+        )
+
+    [ts] => 1591038764
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:12:48
+ INCOMING DATA 
+Array
+(
+    [id] => 31386
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:13:26
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31387
+                )
+
+        )
+
+    [ts] => 1591038803
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:13:27
+ INCOMING DATA 
+Array
+(
+    [id] => 31387
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:14:03
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31388
+                )
+
+        )
+
+    [ts] => 1591038839
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:14:04
+ INCOMING DATA 
+Array
+(
+    [id] => 31388
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:17:02
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31389
+                )
+
+        )
+
+    [ts] => 1591039018
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:17:03
+ INCOMING DATA 
+Array
+(
+    [id] => 31389
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:17:36
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31390
+                )
+
+        )
+
+    [ts] => 1591039053
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:17:37
+ INCOMING DATA 
+Array
+(
+    [id] => 31390
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:18:15
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31391
+                )
+
+        )
+
+    [ts] => 1591039092
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:18:19
+ INCOMING DATA 
+Array
+(
+    [id] => 31391
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:19:06
+ INCOMING DATA 
+Array
+(
+    [id] => 31391
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:19:42
+ INCOMING DATA 
+Array
+(
+    [id] => 31391
+    [desarrollo] => BRASILIA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:21:26
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31392
+                )
+
+        )
+
+    [ts] => 1591039283
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:21:27
+ INCOMING DATA 
+Array
+(
+    [id] => 31392
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:22:01
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31393
+                )
+
+        )
+
+    [ts] => 1591039318
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:22:02
+ INCOMING DATA 
+Array
+(
+    [id] => 31393
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:22:50
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31394
+                )
+
+        )
+
+    [ts] => 1591039367
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:22:51
+ INCOMING DATA 
+Array
+(
+    [id] => 31394
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:24:43
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31395
+                )
+
+        )
+
+    [ts] => 1591039480
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:24:44
+ INCOMING DATA 
+Array
+(
+    [id] => 31395
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:25:58
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31396
+                )
+
+        )
+
+    [ts] => 1591039554
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:25:58
+ INCOMING DATA 
+Array
+(
+    [id] => 31396
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:30:33
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31397
+                )
+
+        )
+
+    [ts] => 1591039829
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:30:34
+ INCOMING DATA 
+Array
+(
+    [id] => 31397
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:31:25
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31398
+                )
+
+        )
+
+    [ts] => 1591039882
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:31:26
+ INCOMING DATA 
+Array
+(
+    [id] => 31398
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:32:06
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31399
+                )
+
+        )
+
+    [ts] => 1591039923
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:32:07
+ INCOMING DATA 
+Array
+(
+    [id] => 31399
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:33:43
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31400
+                )
+
+        )
+
+    [ts] => 1591040020
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:33:44
+ INCOMING DATA 
+Array
+(
+    [id] => 31400
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:37:52
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31401
+                )
+
+        )
+
+    [ts] => 1591040268
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 14:37:56
+ INCOMING DATA 
+Array
+(
+    [id] => 31401
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 15:26:26
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31402
+                )
+
+        )
+
+    [ts] => 1591043182
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 15:26:27
+ INCOMING DATA 
+Array
+(
+    [id] => 31402
+    [desarrollo] => BRASILIA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 15:59:53
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31403
+                )
+
+        )
+
+    [ts] => 1591045189
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 17:46:06
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31404
+                )
+
+        )
+
+    [ts] => 1591051562
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 17:46:10
+ INCOMING DATA 
+Array
+(
+    [id] => 31404
+    [desarrollo] => BRASILIA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 17:53:20
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31405
+                )
+
+        )
+
+    [ts] => 1591051997
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 21:52:29
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31406
+                )
+
+        )
+
+    [ts] => 1591066345
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 21:52:30
+ INCOMING DATA 
+Array
+(
+    [id] => 31406
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 22:43:49
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31407
+                )
+
+        )
+
+    [ts] => 1591069425
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.01 22:43:51
+ INCOMING DATA 
+Array
+(
+    [id] => 31407
+    [desarrollo] => BRASILIA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.01 23:46:07
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31408
+                )
+
+        )
+
+    [ts] => 1591073163
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.02 1:39:36
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31409
+                )
+
+        )
+
+    [ts] => 1591079972
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.02 1:39:38
+ INCOMING DATA 
+Array
+(
+    [id] => 31409
+    [desarrollo] => ANUVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 5:45:12
+ INCOMING DATA 
+Array
+(
+    [event] => ONCRMLEADADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 31410
+                )
+
+        )
+
+    [ts] => 1591094708
+    [auth] => Array
+        (
+            [domain] => intranet.idex.cc
+            [client_endpoint] => https://intranet.idex.cc/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 15bfe0cffd959b441cd3c05d11cd6f25
+            [application_token] => nku91hef720t2brmwz0zgszmk0m32akz
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:12:23
  INCOMING DATA 
 Array
 (
@@ -24,7 +2144,7 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:05:59
+2020.06.02 16:12:34
  INCOMING DATA 
 Array
 (
@@ -36,7 +2156,7 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:06:04
+2020.06.02 16:14:01
  INCOMING DATA 
 Array
 (
@@ -48,7 +2168,355 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:07:25
+2020.06.02 16:18:32
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:21:38
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:22:01
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:28:22
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:28:48
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:29:01
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:29:24
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:29:31
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:29:59
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:30:27
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:30:48
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:31:12
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:31:26
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:33:59
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:34:08
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:34:23
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:34:58
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:37:22
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:37:45
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:38:11
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:38:23
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:38:48
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:39:02
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:39:11
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:39:26
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:41:58
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:42:39
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:42:49
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:43:05
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.02 16:43:31
  INCOMING DATA 
 Array
 (
@@ -60,7 +2528,19 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:07:28
+2020.06.02 16:43:36
+ INCOMING DATA 
+Array
+(
+    [id] => 31410
+    [desarrollo] => LIVA
+    [tipo] => manager
+)
+
+------------------------
+
+------------------------
+2020.06.03 14:03:51
  INCOMING DATA 
 Array
 (
@@ -72,11 +2552,11 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:08:08
+2020.06.03 14:04:04
  INCOMING DATA 
 Array
 (
-    [id] => 1234
+    [id] => 31431
     [desarrollo] => LIVA
     [tipo] => manager
 )
@@ -84,11 +2564,11 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:08:28
+2020.06.03 14:04:24
  INCOMING DATA 
 Array
 (
-    [id] => 1234
+    [id] => 31431
     [desarrollo] => LIVA
     [tipo] => manager
 )
@@ -96,407 +2576,11 @@ Array
 ------------------------
 
 ------------------------
-2020.06.01 17:08:44
+2020.06.03 14:04:39
  INCOMING DATA 
 Array
 (
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:08:51
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:09:46
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:09:50
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:09:52
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:09:55
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:10:25
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:10:29
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:10:47
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:10:50
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:10:52
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:14:24
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:14:27
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:14:30
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:15:47
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:15:50
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:15:52
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:23
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:28
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:31
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:52
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:55
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:16:58
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:18:52
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:18:55
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:18:58
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:20:28
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:20:35
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:20:40
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:20:59
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:21:09
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:21:12
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:21:16
- INCOMING DATA 
-Array
-(
-    [id] => 1234
-    [desarrollo] => LIVA
-    [tipo] => manager
-)
-
-------------------------
-
-------------------------
-2020.06.01 17:21:19
- INCOMING DATA 
-Array
-(
-    [id] => 1234
+    [id] => 31431
     [desarrollo] => LIVA
     [tipo] => manager
 )

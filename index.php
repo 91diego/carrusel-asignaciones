@@ -9,6 +9,7 @@
 	$projectName = $_REQUEST["desarrollo"];
 	$type = $_REQUEST["tipo"];
 
+	print_r(searchDuplicateRecord($leadId)); exit;
 	assignments($leadId, $projectName, $type);
 
 ?>
