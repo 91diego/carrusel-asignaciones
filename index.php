@@ -18,5 +18,4 @@
 		$data = 0;
 		assignments($leadId, $projectName, $type, 0);
 	}
-
 ?>

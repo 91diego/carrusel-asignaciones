@@ -20,42 +20,7 @@
 
 			case 'manager':
 
-				// IF THE LEAD EXIST, WE ASSIGN THE RECORD TO LE LAST RESPONSABLE
-				// AND THE PROCESS END
-				if ($data == 0) {
-
-					$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
-					$userJson = file_get_contents($userUrl);
-	  				$user = json_decode($userJson, true);
-	  				$numberOfUsers = count($user["result"]);
-
-	  				// SI LA CONDICION SE CUMPLE SE REINICIA EL CARRUSEL DE ASIGNACIONES
-	  				// DE LO CONTRARIO SE REALIZA LA ASIGNACION AL SIGUIENTE USUARIO
-	  				if ($numberOfUsers < 1) {
-
-	  					$userData = resetCarousel($user["result"]);
-	  					$number = count($userData);
-			  			for ($i = 0; $i < $number; $i++) {
-
-		  					responsableToLead($userData[$i]["ID"], $leadId, "");
-		  					changePersonalState($userData[$i]["ID"]);
-						    break;
-		  				}
-	  				} else {
-
-		  				for ($i = 0; $i < $numberOfUsers; $i++) {
-
-		  					responsableToLead($user["result"][$i]["ID"], $leadId, "");
-		  					changePersonalState($user["result"][$i]["ID"]);
-						    break;
-		  				}
-	  				}
-
-				} elseif ($data["ASSIGNED_BY_ID"] > 0) {
-
-					$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"];
-					responsableToLead($data["ASSIGNED_BY_ID"], $leadId, $comments);
-				}
+				assignLeadProcess($type, $data, $leadId);
 				break;
 
 			case 'sales-advisor-general':
@@ -69,8 +34,8 @@
 				break;
 
 			case 'top-sales-advisor':
-				echo "Asignacion de leads a los asesores";
-				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SE REALIZAN MEDIANTE UNA CLASIFICACION";
+
+				assignLeadProcess($type, $data, $leadId);
 				break;
 			
 			default:
@@ -79,6 +44,60 @@
 		}
 	}
 
+	/**
+	* Assign leads
+	* @param string $type
+	* @param array $data
+	*
+	*/
+	function assignLeadProcess($type, $data, $leadId) {
+
+		switch ($type) {
+			case "manager":
+				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
+				break;
+			case "top-sales-advisor":
+				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=ASESOR%20INMOBILIARIO&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0&FILTER[WORK_COMPANY]=TOP";
+				break;
+			default:
+				// code...
+				break;
+		}
+
+		if ($data == 0) {
+
+			$userJson = file_get_contents($userUrl);
+			$user = json_decode($userJson, true);
+			$numberOfUsers = count($user["result"]);
+
+			// SI LA CONDICION SE CUMPLE SE REINICIA EL CARRUSEL DE ASIGNACIONES
+			// DE LO CONTRARIO SE REALIZA LA ASIGNACION AL SIGUIENTE USUARIO
+			if ($numberOfUsers < 1) {
+
+				$userData = resetCarousel($user["result"], $type);
+				$number = count($userData);
+  			for ($i = 0; $i < $number; $i++) {
+
+					responsableToLead($userData[$i]["ID"], $leadId, "");
+					changePersonalState($userData[$i]["ID"]);
+			    break;
+				}
+			} else {
+
+				for ($i = 0; $i < $numberOfUsers; $i++) {
+
+					responsableToLead($user["result"][$i]["ID"], $leadId, "");
+					changePersonalState($user["result"][$i]["ID"]);
+			    break;
+				}
+			}
+		} elseif ($data["ASSIGNED_BY_ID"] > 0) {
+
+			$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"
+			// SE AGIGNA AL GERENTE RESPONSABLE
+			responsableToLead($data["ID_RESPONSABLE"], $leadId, $comments);
+		}	
+	}
 
 	/**
 	* Prevents duplicate records
@@ -126,7 +145,7 @@
 	  				
 	  				// echo "Los datos del prospecto con el ID $leadId ya fueron registrado en el ID ".$duplicatesResponse["result"][$i]["ID"].".<br>";
 	  				$userResult = searchUserName($duplicatesResponse["result"][$i]["ASSIGNED_BY_ID"]);
-	  				$department = departments($userResult[0]["UF_DEPARTMENT"][1]);
+	  				$department = departments($userResult[0]["UF_DEPARTMENT"][0]);
 	  				$managersName = searchUserName($department[0]["UF_HEAD"]);
 	  				// INSERT DATA OF THE OLD (OR FIRST RECORD IN CRM) RECORD
 	  				array_push($duplicateData, [
@@ -137,6 +156,7 @@
 	  					"DEPARTMENT_ID" => $department[0]["ID"],
 	  					"DEPARTMENT_NAME" => $department[0]["NAME"],
 	  					"ID_HEAD" => $department[0]["UF_HEAD"],
+	  					"ID_RESPONSABLE" => $managersName[0]["ID"],
 	  					"RESPONSABLE_DEPARTMENT" => $managersName[0]["NAME"]." ".$managersName[0]["LAST_NAME"]
 	  				]);
 	  				return $duplicateData;
@@ -255,9 +275,19 @@
 	*
 	* @return bool
 	*/
-	function resetCarousel($data) {
+	function resetCarousel($data, $type) {
 
-		$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=1";
+		switch ($type) {
+			case "manager":
+				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=1";
+				$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
+				break;
+			case "top-sales-advisor":
+				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=ASESOR%20INMOBILIARIO&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=1&FILTER[WORK_COMPANY]=TOP";
+				$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=ASESOR%20INMOBILIARIO&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0&FILTER[WORK_COMPANY]=TOP";
+				break;
+		}
+
 		$userJson = file_get_contents($userUrl);
 		$user = json_decode($userJson, true);
 		$numberOfUsers = count($user["result"]);
@@ -281,10 +311,11 @@
 		    $data = json_decode($response, true);
 		}
 
-		$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
+		// OBTENEMOS EL LISTADO DE LOS USUARIOS EN PERSONAL STATE 0
+		$updatePersonalState = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=ASESOR%20INMOBILIARIO&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0&FILTER[WORK_COMPANY]=TOP";
 		$userUpdate = file_get_contents($updatePersonalState);
-		$user = json_decode($userUpdate, true);
-		$userData = $user["result"];
+		$userList = json_decode($userUpdate, true);
+		$userData = $userList["result"];
 		echo "<p>El carrusel de asignaciones ha sido reiniciado</p>";
 		return $userData;
 	}
