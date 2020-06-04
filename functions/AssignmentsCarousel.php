@@ -93,7 +93,7 @@
 			}
 		} elseif ($data["ASSIGNED_BY_ID"] > 0) {
 
-			$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"
+			$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"];
 			// SE AGIGNA AL GERENTE RESPONSABLE
 			responsableToLead($data["ID_RESPONSABLE"], $leadId, $comments);
 		}	
