@@ -24,11 +24,13 @@
 				break;
 
 			case 'sales-advisor-general':
+
 				echo "Asignacion de leads a los asesores";
 				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SON GENERALES SIN IMPORTAR EL DESARROLLO";
 				break;
 
 			case 'sales-advisor-project':
+
 				echo "Asignacion de leads a los asesores";
 				echo "Se realiza una busqueda en los usuarios en donde su cargo sea asesor de ventas. LAS ASIGNACIONES SON POR DESARROLLO";
 				break;
@@ -36,10 +38,6 @@
 			case 'top-sales-advisor':
 
 				assignLeadProcess($type, $data, $leadId);
-				break;
-			
-			default:
-				// code...
 				break;
 		}
 	}
@@ -53,14 +51,12 @@
 	function assignLeadProcess($type, $data, $leadId) {
 
 		switch ($type) {
+
 			case "manager":
 				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=GERENTE%20DE%20VENTAS&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0";
 				break;
 			case "top-sales-advisor":
 				$userUrl = "https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/user.get.json?FILTER[WORK_POSITION]=ASESOR%20INMOBILIARIO&FILTER[ACTIVE]=true&FILTER[PERSONAL_STATE]=0&FILTER[WORK_COMPANY]=TOP";
-				break;
-			default:
-				// code...
 				break;
 		}
 
@@ -76,26 +72,30 @@
 
 				$userData = resetCarousel($user["result"], $type);
 				$number = count($userData);
-  			for ($i = 0; $i < $number; $i++) {
+  				for ($i = 0; $i < $number; $i++) {
 
-					responsableToLead($userData[$i]["ID"], $leadId, "");
+					responsableToLead($userData[$i]["ID"], $leadId, "", "");
 					changePersonalState($userData[$i]["ID"]);
-			    break;
+			    	break;
 				}
 			} else {
 
 				for ($i = 0; $i < $numberOfUsers; $i++) {
 
-					responsableToLead($user["result"][$i]["ID"], $leadId, "");
+					responsableToLead($user["result"][$i]["ID"], $leadId, "", "");
 					changePersonalState($user["result"][$i]["ID"]);
-			    break;
+			    	break;
 				}
 			}
 		} elseif ($data["ASSIGNED_BY_ID"] > 0) {
 
-			$comments = "El prospecto habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM. Pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"];
+			$oldLeadId = $data["OLD_ID_LEAD"];
+			$oldLeadTitle = $data["TITLE_OLD_LEAD"];
+
+			$comments = "<p>El prospecto <a href='https://intranet.idex.cc/crm/lead/details/$oldLeadId/'>$oldLeadTitle</a> , habia sido asignado anteriormente a ". $data["ASSIGNED_NAME"].", que tiene el ID ". $data["ASSIGNED_BY_ID"]." en el CRM, pertenece al departamento ".$data["DEPARTMENT_NAME"]." y su gerente responsable es ".$data["RESPONSABLE_DEPARTMENT"]."</p>";
+			$phase = 5;
 			// SE AGIGNA AL GERENTE RESPONSABLE
-			responsableToLead($data["ID_RESPONSABLE"], $leadId, $comments);
+			responsableToLead($data["ID_RESPONSABLE"], $leadId, $comments, $phase);
 		}	
 	}
 
@@ -147,10 +147,13 @@
 	  				$userResult = searchUserName($duplicatesResponse["result"][$i]["ASSIGNED_BY_ID"]);
 	  				$department = departments($userResult[0]["UF_DEPARTMENT"][0]);
 	  				$managersName = searchUserName($department[0]["UF_HEAD"]);
+
 	  				// INSERT DATA OF THE OLD (OR FIRST RECORD IN CRM) RECORD
 	  				array_push($duplicateData, [
 
 	  					"ID" => $leadId,
+	  					"OLD_ID_LEAD" => $duplicatesResponse["result"][$i]["ID"],
+	  					"TITLE_OLD_LEAD" => $duplicatesResponse["result"][$i]["TITLE"],
 	  					"ASSIGNED_BY_ID" => $duplicatesResponse["result"][$i]["ASSIGNED_BY_ID"],
 	  					"ASSIGNED_NAME" => $userResult[0]["NAME"]." ".$userResult[0]["LAST_NAME"],
 	  					"DEPARTMENT_ID" => $department[0]["ID"],
@@ -237,20 +240,37 @@
 	* @param string comments -> ONLY IF THE RECORD EXIST
 	* @return bool
 	*/
-	function responsableToLead($userId, $leadId, $comments) {
+	function responsableToLead($userId, $leadId, $comments, $phase) {
 
 	    // URL QUE CONTIENE LE METODO DE LA API PARA LAS ASIGNACIONES DEL CARRUSEL
 	    $assignLeadResponsable = 'https://intranet.idex.cc/rest/117/w0qdwl5fbr0hpuf1/crm.lead.update.json';
-	    $queryData = http_build_query(
-	      array(
-	        'id' => $leadId,
-	        'fields' => array(
-	        "ASSIGNED_BY_ID" => $userId,
-	        "COMMENTS" => $comments
-	        ),
-	        'params' => array("REGISTER_SONET_EVENT" => "Y")
-	      )
-	    );
+
+	    if ($phase == 5) {
+			$queryData = http_build_query(
+			    array(
+			        'id' => $leadId,
+			        'fields' => array(
+			        "ASSIGNED_BY_ID" => $userId,
+			        "COMMENTS" => $comments,
+			        "STATUS_ID" => $phase,
+			        "UF_CRM_1580337846" => 432
+			        ),
+			        'params' => array("REGISTER_SONET_EVENT" => "Y")
+			    )
+	    	);	    	
+	    } else {
+
+			$queryData = http_build_query(
+			    array(
+			        'id' => $leadId,
+			        'fields' => array(
+			        "ASSIGNED_BY_ID" => $userId,
+			        "COMMENTS" => $comments
+			        ),
+			        'params' => array("REGISTER_SONET_EVENT" => "Y")
+			    )
+	    	);
+	    }
 
 	    $curl = curl_init();
 	    curl_setopt_array($curl, array(
@@ -265,8 +285,9 @@
 	    $result = curl_exec($curl);
 	    curl_close($curl);
 	    $result = json_decode($result, 1);
+	    print_r($result); exit;
 
-			echo "<p> La negociacion: ".$leadId.", ha sido asignada a el ID de gerente ".$userId." </p>";
+		echo "<p> La negociacion: ".$leadId.", ha sido asignada a el ID de gerente ".$userId." </p>";
 	}
 
 	/**

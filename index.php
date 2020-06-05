@@ -10,6 +10,7 @@
 	$type = $_REQUEST["tipo"];
 
 	$result = searchDuplicateRecord($leadId);
+
 	if (!empty($result)) {
 		
 		$data = $result[0];
